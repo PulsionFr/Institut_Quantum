@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Institut Quantum</title>
+    <link rel=stylesheet href="sources/styles.css">
+</head>
+
+  <body>
+
+    <!--HEADER-->
+    <header>
+      <img src="./sources/IQ_Logo.png" alt="logo">
+      <p><a href="#Organisation">L'organisation</p></a>
+      <p><a href="#Membres">Nos membres</p></a>
+      <p><a href="#vehicules">Nos véhicules</p></a>
+      <p><a href="#contact-section">Nous rejoindre</p></a>
+    </header>
+    <main>
+
+      <!--PRESENTATION SECTION-->
+      <section id="Presentation">
+        <h2 class="TitrePrincipal">Vous Sauver.<br>
+          Notre Priorité
+        </h2>
+        <video id="Video_Fond" autoplay loop muted>
+          <source src="sources/Video_Floue_10s.mp4" type=video/mp4 alt="Video">
+        </video>
+      </section>
+
+      <!--ORGANISATION SECTION-->
+      <section id="Organisation">
+        <h2>L'Organisation</h2>
+        <a>Le logo de l'institut sert ses trois valeurs fondamentales : <br>
+          <br>
+          <b>Rapidité - Efficacité - Progrès</b><br>
+          <br>
+          Il rend aussi hommage à son soutien financier de première heure : 
+          "Drake Interplanetary" en intégrant en fond une silhouette de vaisseau ambulancier de classe "Cutlass RED".<br>
+          <br>
+          Afin de pérenniser son activité, l'Institut a divisé son organisme en trois branches auxiliaires qui alimenteront sa recherche ainsi que ses stocks médicaux et financiers.
+        </a>
+          <img src="sources/Quantum&sesbranches 1.png">
+
+      </section>
+
+      <!--MEMBRES SECTION-->
+      <section id="Membres">
+        <h2>Nos Membres</h2>
+        <img id="adrien_img" src="./sources/photo_Adrien.jpg">
+        <img id="maxime" src="./sources/Posture_Maxime.png">
+          
+          <div id="dupuystren">
+            <h3>Maxime Dupuystren<br> Chef médecin</h3>
+            <a>Fondateur et grand dirigeant de l’Institut Quantum, Dupuystren est aussi un homme d’action, se trouvant bien plus souvent sur le terrain que derrière son bureau.</a>
+          </div>
+
+          <div id="adrien">
+            <h3><b></b>Adrien Geth</b><br> Pilote - Médecin</h3>
+            <a>Pilote cascadeur et Xénophile avéré, Adrien Geth est réputé comme meilleur Pilote de l’Institut, lui et son Cutlass red étant bien souvent les premiers arrivés sur zone.</a>
+          </div>
+
+
+      </section>
+
+
+      <!--VEHICULES SECTION-->
+      <section id="vehicules">
+        <h2>Nos véhicules</h2>
+        <img id="CutlassRed" src="./sources/amblance.png" alt="CutlassRed">
+        <img id="Apollo" src="./sources/ambubulance_appolo.png" alt="Apollo">
+
+        <div id="cutlass">
+          <h3>Cutlass Red</h3>
+          <a>Le Cutlass Red est une variante du chasseur Cutlass développé par Drake Interplanetary. 
+            Le Red est un véhicule combiné de recherche, de sauvetage et de transport médical.</a>
+        </div>
+
+        <div id="Apolloship">
+          <h3>Apollo Triage</h3>
+          <a>L’Apollo Triage est conçu pour aller et venir avec la vitesse et l’efficacité requises pour le sauvetage, les évacuations médicales, et d'autres situations d’urgence diverses.</a>
+        </div>
+
+      </section>
+
+
+      <!--REJOIGNEZ-NOUS ( Je suis conscient qu'il y a beaucoup de div et Span mais je n'ai pas trouvé autrement pour un formulaire de contact )-->    
+<section id="contact-section">
+  <div class="container-contact">
+      <h2>Rejoignez-nous !</h2>
+      <p> Nous vous répondrons au plus vite</p>
+      <div class="contact-form">
+          <div>
+              <span class="form-info"><strong>59 avenue du Quantum Drive</strong></span></br>
+              <span class="form-info"><strong>01 64 36 44 98</strong></span></br>
+              <span class="form-info"><strong>InsitutQuantum@mailo.fr</strong></span>
+          </div>
+          <div>
+              <form>
+                  <input type="text" placeholder="Nom" required>
+                  <input type="text" placeholder="Prénom" required>
+                  <input type="email" placeholder="Email" required>
+                  <input type="text" placeholder="Sujet de votre message" required>
+                  <textarea name="message" placeholder="Message" rows="5" required></textarea>
+                  <button class="submit"> Envoyer</button>
+              </form>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+    </main>
+  </body>
+</html>
